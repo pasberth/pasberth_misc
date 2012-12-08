@@ -1,7 +1,7 @@
 import os
 import sys
 
-SRC_ROOT = os.path.join(os.path.dirname(__file__), './src')
+SRC_ROOT = os.path.join(os.path.dirname(__file__), './PySIF/src')
 sys.path[0:0] = [SRC_ROOT]
 
 import sif
